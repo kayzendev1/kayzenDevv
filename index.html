@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kayzenDev - Modern Developer Portfolio</title>
+    <meta name="description" content="kayzenDev - Full Stack Developer & WhatsApp Bot Script Creator. Offering modern web development and intelligent bot solutions with cutting-edge technology.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="fixed-bg">
+        <div class="bg-gradient"></div>
+        <div class="floating-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">kayzenDev</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Music Player -->
+    <div class="floating-music" id="musicPlayer">
+        <button class="music-btn" id="musicToggle">
+            <i class="fas fa-music"></i>
+            <div class="music-visualizer" id="visualizer">
+                <div class="music-bar"></div>
+                <div class="music-bar"></div>
+                <div class="music-bar"></div>
+                <div class="music-bar"></div>
+            </div>
+        </button>
+        <audio id="bgMusic" loop>
+            <source src="https://files.catbox.moe/q6910v.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Floating Credits -->
+    <div class="floating-credits" id="creditsPanel">
+        <button class="credits-btn" id="creditsToggle">
+            <i class="fas fa-heart"></i>
+            <span>Thanks</span>
+        </button>
+        <div class="credits-popup" id="creditsPopup">
+            <div class="credits-title">Thanks to</div>
+            <div class="credits-grid">
+                <div class="credit-item">RIICODE</div>
+                <div class="credit-item">LEZ</div>
+                <div class="credit-item">Rilzy</div>
+                <div class="credit-item">Kaizi</div>
+                <div class="credit-item">Fadel</div>
+                <div class="credit-item">Simoy</div>
+                <div class="credit-item">Repan</div>
+                <div class="credit-item">Cello</div>
+                <div class="credit-item">Axe</div>
+                <div class="credit-item">Bengzi</div>
+                <div class="credit-item">Hamz</div>
+                <div class="credit-item">KanzX</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="profile-photo">
+                    <img src="https://files.catbox.moe/nm9d8o.jpeg" alt="kayzenDev Profile">
+                </div>
+                <h1 class="hero-title">kayzenDev</h1>
+                <p class="hero-subtitle">Full Stack Developer & Bot Script Creator</p>
+                <p class="hero-description">
+                    Crafting modern web experiences and intelligent WhatsApp bot solutions with cutting-edge technology
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="https://wa.me/6282295954278" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i>Contact Me
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-js-square skill-icon text-yellow"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-bolt skill-icon text-purple"></i>
+                        <h3>Vite</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-html5 skill-icon text-orange"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt skill-icon text-blue"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python skill-icon text-green"></i>
+                        <h3>Python</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-content">
+                    <div class="project-info">
+                        <h3 class="project-title">Script Botwa Darkwhisper</h3>
+                        <p class="project-description">
+                            Advanced WhatsApp bot script featuring intelligent responses, automation capabilities, 
+                            and seamless integration. Built with modern JavaScript and optimized for performance.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">WhatsApp API</span>
+                            <span class="tag">Bot Framework</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://www.mediafire.com/file/p7xt6neod5zgh8y/DarkWhisper.zip/file" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-download"></i>Download
+                            </a>
+                            <a href="https://wa.me/6282295954278" target="_blank" class="btn btn-secondary">
+                                <i class="fab fa-whatsapp"></i>Get Support
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="https://files.catbox.moe/7fc5na.jpeg" alt="Script Botwa Darkwhisper Interface">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon service-icon-wa">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp Bot Script</h3>
+                        <p>Custom WhatsApp bot development with advanced features, automation, and intelligent responses</p>
+                        <div class="service-price">Rp 100,000</div>
+                        <a href="https://wa.me/6282295954278?text=Hi!%20I'm%20interested%20in%20WhatsApp%20Bot%20Script%20service" target="_blank" class="btn btn-service-wa">
+                            <i class="fab fa-whatsapp"></i>Order Now
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon service-icon-web">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Website Development</h3>
+                        <p>Modern, responsive websites built with latest technologies and optimized for performance</p>
+                        <div class="service-price">Rp 50,000</div>
+                        <a href="https://wa.me/6282295954278?text=Hi!%20I'm%20interested%20in%20Website%20Development%20service" target="_blank" class="btn btn-service-web">
+                            <i class="fab fa-whatsapp"></i>Order Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="contact-description">
+                    Ready to bring your ideas to life? Get in touch and let's create something amazing!
+                </p>
+                <div class="contact-button">
+                    <a href="https://wa.me/6282295954278" target="_blank" class="btn btn-contact">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <div class="contact-label">WhatsApp</div>
+                            <div class="contact-number">+62 822-9595-4278</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-brand">kayzenDev</div>
+            <p class="footer-text">© 2024 kayzenDev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
